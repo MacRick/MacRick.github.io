@@ -1,0 +1,126 @@
+/* Regular */
+@import url("https://use.typekit.net/iif6grh.css");
+/* font-family: upgrade, sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+/* Bold */
+@import url("https://use.typekit.net/iif6grh.css");
+/* font-family: upgrade, sans-serif;
+font-weight: 600;
+font-style: normal; */
+
+
+
+
+header{
+    height: 65px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+footer{
+    height: 65px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10vh;
+}
+
+footer p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.hero--title{
+    text-align: center;
+    font-family: upgrade, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.logo{    
+    margin-top: 20px;
+}
+
+.logo a:hover{
+    text-decoration: none;
+}
+
+.hero--title--span{
+background-color:black;
+color:white;
+padding: 14px 16px
+}
+
+.space-down{
+    margin-top: 30px;
+}
+
+
+.centered{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.hero--title--centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+
+}
+
+.hero--header img{
+    width: 100%;
+    height: 350px;
+}
+
+.image--card{
+    height: 300px;
+    margin-bottom: 10vh;
+
+}
+
+.image--card h2{
+    font-family: upgrade, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.border-right{
+    border-right: 2px solid lightgray !important;
+}
+
+ul.breadcrumb {
+    padding: 2px 0px;
+    list-style: none;
+    background-color: white;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
