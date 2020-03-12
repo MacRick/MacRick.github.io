@@ -130,11 +130,13 @@ ul.breadcrumb {
     font-style: normal;
   }
 
-  .docu--main h2,h3{
+  .docu--main h2,h3, h4{
     font-family: upgrade, sans-serif;
     font-weight: 600;
     font-style: normal;
   }
+
+
 
   .icon-bar {
     position: fixed;
