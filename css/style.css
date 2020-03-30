@@ -48,10 +48,16 @@ footer p{
     font-weight: 600;
     font-style: normal;   
     margin-top: 20px;
+    transition: 0.3s;
+    opacity: 1;
 }
 
 .logo a:hover{
     text-decoration: none;
+}
+
+.logo:hover{
+  opacity: 0.8;
 }
 
 .hero--title--span{
@@ -71,11 +77,21 @@ footer p{
     font-style: normal;
     font-size: 25px;
     text-align: center;
-    background: #8a2387; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #8a2387, #e94057, #f27121); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #b1cbbb;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.1);
     color: white;
     padding: 25px 25px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.centered:hover{
+  opacity: 0.7;
+}
+
+.col-md-6{
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 
@@ -90,11 +106,18 @@ footer p{
 
 }
 
+.index_btn{
+  color: white;
+}
+
+.index_btn:hover{
+  text-decoration: none;
+}
+
 .hero--header {
-  background: #8a2387; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8a2387, #e94057, #f27121); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8a2387, #e94057, #f27121); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:#b1cbbb;
   height: 350px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .border-right{
@@ -116,11 +139,11 @@ ul.breadcrumb {
     content: "/\00a0";
   }
   ul.breadcrumb li a {
-    color: #0275d8;
+    color: black;
     text-decoration: none;
   }
   ul.breadcrumb li a:hover {
-    color: #01447e;
+    color: black;
     text-decoration: underline;
   }
 
@@ -204,3 +227,22 @@ ul.breadcrumb {
    display: none;
  }
 }
+
+.docu-inhoud li, a{
+  color: black;
+}
+
+.docu-inhoud li, a:hover{
+  color: black;
+}
+
+.docu_inhoud_main{
+  background: #F0F0F0;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.col-md-2{
+  padding: 0;
+}
+
