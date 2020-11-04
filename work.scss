@@ -1,0 +1,79 @@
+@use 'index.scss';
+
+$primary-color: #13181B;
+$secondary-color: #EAB75C;
+$text-color: #283339;
+$bg-color: #FFFFFF;
+$secondary-btn: #E8E8E8;
+
+//font variables
+$primary-font: 'Alegreya', serif;
+$secondary-font: 'Alegreya Sans', sans-serif;
+
+  /* Center website */
+  .main {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    word-break: break-all;
+    font-family: $primary-font;
+  }
+
+  p{
+    font-family: $secondary-font;
+    color: $text-color;
+    
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column1 {
+    padding: 7px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 30%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+
+    h3{
+      font-family: $primary-font;
+    }
+  }
+  
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column1 {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+  }
+
+

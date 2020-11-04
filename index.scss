@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800;900&display=swap');
+//    font-family: 'Alegreya', serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;900&display=swap');
+//    font-family: 'Alegreya Sans', sans-serif;
+
+
+//color variables
+$primary-color: #13181B;
+$secondary-color: #EAB75C;
+$text-color: #283339;
+$bg-color: #FFFFFF;
+$secondary-btn: #E8E8E8;
+
+//font variables
+$primary-font: 'Alegreya', serif;
+$secondary-font: 'Alegreya Sans', sans-serif;
+
+body { 
+
+}
+
+.my-grid{
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+  
+    
+    
+}
+
+.column{
+    width: 50%;
+}
+
+
+header{
+    h1{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: $secondary-font;
+        font-weight: 500;
+        color: $primary-color;
+    }
+
+    p{
+        font-family: $primary-font;
+        font-size: 50px;
+        font-weight: 600;
+        color: $primary-color;
+        margin: 0;
+    }
+}
+
+main{
+    #introduction{
+        p{
+            font-family: $secondary-font;
+            font-weight: 300;
+            font-size: 25px;
+
+            em{
+                border-bottom: 4px solid $secondary-color;
+                font-weight: 700;
+                font-style: normal;
+            }
+        }
+
+        h2{
+            font-family: $primary-font;
+            color: $text-color;
+            font-size: 30px;
+        }
+
+        li{
+            font-family: $secondary-font;
+            color: $text-color;
+            font-size: 25px;
+        }
+    }
+}
+
+.actions{
+    .primary{
+    background-color: $secondary-color;
+    border: none;
+    color: $text-color;
+    padding: 20px 90px;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: $secondary-font;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    }
+
+    .secondary{
+        @extend .primary;
+        background-color: $secondary-btn;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      width:85%;
+      padding: 25px;
+    }
+
+    header{
+        h1{
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: $secondary-font;
+            font-weight: 500;
+            color: $primary-color;
+        }
+    
+        p{
+            font-family: $primary-font;
+            font-size: 12vw;
+            font-weight: 500;
+            color: $primary-color;
+            margin-top: 0;
+        }
+    }
+
+    
+
+    .actions{
+        .primary{
+            width: 100%;
+        }
+    }
+  }
+
+  a{
+      color: $text-color;
+      text-decoration: none;
+
+      :visited{
+          color: $text-color;
+          text-decoration: none;
+      }
+
+      :active{
+          color: $text-color;
+          text-decoration: none;
+      }
+  }
+
