@@ -7,11 +7,11 @@ body, html {
   }
   
   .bgimg {
-    background-image: url('img/opa_oma.jpg');
+/*     background-image: url('img/opa_oma.jpg'); */
     height: 100%;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #f5f5f5;
     padding: 25px;
   }
 
